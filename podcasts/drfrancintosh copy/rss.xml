@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+  <title>Dr Francintosh Personal Podcast</title>
+  <description>A collection of my favorite audio recordings.</description>
+  <link>http://drfrancintosh.com.s3.amazonaws.com/test</link>
+  <language>en-us</language>
+  <lastBuildDate>Sun, 12 Jan 2025 22:56:33 -0500</lastBuildDate>
+  <author>Dr Francintosh</author>
+  <itunes:category text="Education"/>
+  <itunes:image href="http://drfrancintosh.com.s3.amazonaws.com/test/artwork.jpg"/>
+  <itunes:explicit>no</itunes:explicit>
+  <item>
+    <title>Level 2 Jeff: I accidentally destroyed my webserver</title>
+    <itunes:subtitle>Level 2 Jeff</itunes:subtitle>
+    <link>http://drfrancintosh.com.s3.amazonaws.com/test/I_accidentally_destroyed_my_webserver.mp3</link>
+    <guid isPermaLink="false">f4793b51e207e802995768e51676ca76730f8422442a5cf1bd02de28169c7a20</guid>
+    <pubDate>Sun, 12 Jan 2025 22:30:51 -0500</pubDate>
+    <enclosure url="http://drfrancintosh.com.s3.amazonaws.com/test/I_accidentally_destroyed_my_webserver.mp3" type="audio/mpeg" length="11705763"/>
+    <itunes:duration>0:08:19</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+  </item>
+  <item>
+    <title>iFixit: The Worst Devices of CES 2025 </title>
+    <itunes:subtitle>iFixit</itunes:subtitle>
+    <link>http://drfrancintosh.com.s3.amazonaws.com/test/The_Worst_Devices_of_CES_2025_.mp3</link>
+    <guid isPermaLink="false">10d4383c627e792d893d117fc56fc00ae8e8643d2de2ba57e87d2e67daa4bf3c</guid>
+    <pubDate>Sun, 12 Jan 2025 22:30:54 -0500</pubDate>
+    <enclosure url="http://drfrancintosh.com.s3.amazonaws.com/test/The_Worst_Devices_of_CES_2025_.mp3" type="audio/mpeg" length="14936303"/>
+    <itunes:duration>0:08:05</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+  </item>
+  <item>
+    <title>GreatScott!: The Coolest Speakers are TOO PRICEY Let s Change that DIY or Buy </title>
+    <itunes:subtitle>GreatScott!</itunes:subtitle>
+    <link>http://drfrancintosh.com.s3.amazonaws.com/test/The_Coolest_Speakers_are_TOO_PRICEY_Let_s_Change_that_DIY_or_Buy_.mp3</link>
+    <guid isPermaLink="false">88ad19f30733e263f4c46cadf9a34ba79813c7a08998bea6e5dbcd0e8033e888</guid>
+    <pubDate>Sun, 12 Jan 2025 22:30:58 -0500</pubDate>
+    <enclosure url="http://drfrancintosh.com.s3.amazonaws.com/test/The_Coolest_Speakers_are_TOO_PRICEY_Let_s_Change_that_DIY_or_Buy_.mp3" type="audio/mpeg" length="20795331"/>
+    <itunes:duration>0:12:29</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+  </item>
+</channel>
+</rss>

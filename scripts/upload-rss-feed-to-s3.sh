@@ -49,6 +49,9 @@ EOF
     file_size=$(stat -f "%z" "$file") # Get file size in bytes
     pub_date=$(stat -f "%Sm" -t "%a, %d %b %Y %H:%M:%S %z" "$file")
 
+    # Get audio duration using ffprobe
+    duration=$(ffprobe -i "$file" -show_entries format=duration -v quiet -of csv="p=0" | awk '{printf("%d:%02d:%02d", $1/3600, ($1%3600)/60, $1%60)}')
+
     # Generate a unique GUID
     guid=$(echo -n "$file_name" | shasum -a 256 | awk '{print $1}')
 
@@ -60,6 +63,7 @@ EOF
     <guid isPermaLink="false">$guid</guid>
     <pubDate>$pub_date</pubDate>
     <enclosure url="$url" type="audio/mpeg" length="$file_size"/>
+    <itunes:duration>$duration</itunes:duration>
     <itunes:explicit>no</itunes:explicit>
   </item>
 EPISODE

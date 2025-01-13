@@ -4,6 +4,7 @@
 
 ## TODO
 
+- don't process LIVE or overly long videos / audios
 - set the # of days (currently hard-coded to 7 days prior)
 - manage purging of reviewed audios/videos
 - verify that duplicates do not occur

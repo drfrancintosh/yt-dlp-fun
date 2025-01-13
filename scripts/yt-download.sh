@@ -50,6 +50,7 @@ poetry >/dev/null run yt-dlp \
     --no-post-overwrites \
     --no-mtime \
     --remux-video mp4 \
+    --match-filter "duration <= $duration_threshold" \
     -- "$feed"
 
   echo "--------------------------"
